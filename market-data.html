@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>AIAuditTrail.com Market Data — AI Governance and Audit Market Data</title>
-<meta name="description" content="Public figures on AI governance market size, documented AI incidents, and AI compliance costs and penalties, compiled from published research summaries, the Stanford AI Index as reported, NIST, and EU AI Act penalty provisions as cited."
+<meta name="description" content="Public figures on AI governance market size, documented AI incidents, and AI compliance costs and penalties, compiled from published research summaries, the Stanford AI Index as reported, NIST, and EU AI Act penalty provisions as cited.">
 <link rel="canonical" href="https://aiaudittrail.com/market-data">
 <meta property="og:title" content="AIAuditTrail.com Market Data — AI Governance and Audit Market Data">
 <meta property="og:description" content="Public figures on AI governance market size, documented AI incidents, and AI compliance costs and penalties, compiled from published research summaries, the Stanford AI Index as reported, NIST, and EU AI Act penalty provisions as cited.">
@@ -140,6 +140,17 @@ table.figs td.v{white-space:nowrap;font-weight:600;color:#fff}
 /* Phase 1 assembly 2026-10-31 — nav solid correction */
 @media (max-width:900px){nav{background:rgb(5,8,7)!important;backdrop-filter:none!important}}
 </style>
+<style>
+/* Mobile rendering fix 2026-10-31: domain H1 lines, stacked nav, header clearance */
+@media (max-width:900px){
+main h1{overflow-wrap:normal!important;word-break:normal!important}
+nav:not(.toc){flex-direction:column!important;align-items:flex-start!important;gap:4px!important;padding-top:16px!important;padding-bottom:16px!important;padding-left:20px!important;padding-right:20px!important}
+.topbar{flex-direction:column!important;align-items:flex-start!important;gap:4px!important;padding-top:16px!important;padding-bottom:16px!important;padding-left:20px!important;padding-right:20px!important}
+main{padding-top:120px!important}
+main h1 .h1-domain{display:block!important;font-size:clamp(19px,6vw,28px)!important;letter-spacing:0!important;word-break:keep-all!important;overflow-wrap:normal!important;line-height:1.25!important}
+main h1 .h1-title{display:block!important}
+}
+</style>
 </head>
 <body>
 <nav>
@@ -148,7 +159,7 @@ table.figs td.v{white-space:nowrap;font-weight:600;color:#fff}
 </nav>
 <main class="data">
 <p class="stamp">Market Data &middot; Last updated: October 25, 2026</p>
-<h1>AIAuditTrail.com Market Data</h1>
+<h1><span class="h1-domain">AIAuditTrail.<wbr>com</span> <span class="h1-title">Market Data</span></h1>
 <p class="lede">Documented AI failures rose 55% in a single year while the market for governing AI is still small enough to measure in hundreds of millions. That tension is the whole story.</p>
 <p>The Stanford AI Index has become the closest thing the AI industry has to an official scoreboard, and its incident count is moving in the wrong direction. The AI Incident Database recorded 362 documented incidents in 2025, up from 233 in 2024 — harms and near-harms from deployed systems, from hiring discrimination to deepfake fraud to medical AI errors. The 55% jump tracks adoption: more systems in production means more failure modes, and governance frameworks are still catching up to deployment speed.</p>
 <p>The money side tells a similar story in miniature. Published estimates for the AI governance market in 2024 range from $0.89 billion (MarketsandMarkets) to $1.0 billion (Global Industry Analysts), but their forecasts diverge sharply — $5.78 billion by 2029 versus $17.0 billion by 2030. The disagreement is definitional: whether services, consulting, and adjacent compliance tooling count. What both agree on is direction and speed, with growth rates above 45% a year.</p>
