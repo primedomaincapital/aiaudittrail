@@ -4,16 +4,16 @@
   <link rel="canonical" href="https://aiaudittrail.com/insights/article2">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI Model Audits: Who's Required to Conduct Them in 2026 | AIAuditTrail.com Insights</title>
-<meta name="description" content="Who must audit AI in 2026? Providers, deployers, and GPAI model makers face different duties, from frontier red-teaming to deployer impact assessments.">
-<meta property="og:title" content="AI Model Audits: Who's Required to Conduct Them in 2026">
-<meta property="og:description" content="Who must audit AI in 2026? Providers, deployers, and GPAI model makers face different duties, from frontier red-teaming to deployer impact assessments.">
+<title>The Audit Problem With AI Agents: Who Must Audit AI Models in 2026 | AIAuditTrail.com Insights</title>
+<meta name="description" content="AI agents make decisions no human reviewed, using tools no one logged. That is the audit problem: the chain of evidence breaks at the agent. Who must audit AI in 2026, and what agents change.">
+<meta property="og:title" content="The Audit Problem With AI Agents: Who Must Audit AI Models in 2026">
+<meta property="og:description" content="AI agents make decisions no human reviewed, using tools no one logged. That is the audit problem: the chain of evidence breaks at the agent. Who must audit AI in 2026, and what agents change.">
 <meta property="og:type" content="article">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Article","headline":"AI Model Audits: Who's Required to Conduct Them in 2026","description":"Who must audit AI in 2026? Providers, deployers, and GPAI model makers face different duties, from frontier red-teaming to deployer impact assessments.","author":{"@type":"Organization","name":"Prime Domain Capital"},"publisher":{"@type":"Organization","name":"Prime Domain Capital"},"datePublished":"2026-10-17","mainEntityOfPage":"https://aiaudittrail.com/insights/article2"}
+{"@context":"https://schema.org","@type":"Article","headline":"The Audit Problem With AI Agents: Who Must Audit AI Models in 2026","description":"AI agents make decisions no human reviewed, using tools no one logged. That is the audit problem: the chain of evidence breaks at the agent. Who must audit AI in 2026, and what agents change.","author":{"@type":"Organization","name":"Prime Domain Capital"},"publisher":{"@type":"Organization","name":"Prime Domain Capital"},"datePublished":"2026-10-17","mainEntityOfPage":"https://aiaudittrail.com/insights/article2"}
 </script>
 <style>
 :root{--bg:#050807;--panel:#0a0f0c;--green:#3dff8f;--green-dim:#1d7a4c;--cyan:#57e6ff;--txt:#d7e4dc;--mut:#6f8579;--line:#14211a}
@@ -66,8 +66,8 @@ footer a{color:var(--green);text-decoration:none}
 <header class="article-hero">
   <a class="back-link reveal" href="../index.html">&larr; aiaudittrail.com</a>
   <div class="kicker reveal">// insights</div>
-  <h1 class="reveal">AI Model Audits: Who&rsquo;s Required to Conduct Them in 2026</h1>
-  <p class="deck reveal">Who must audit AI in 2026? Providers, deployers, and GPAI model makers face different duties, from frontier red-teaming to deployer impact assessments.</p>
+  <h1 class="reveal">The Audit Problem With AI Agents: Who Must Audit AI Models in 2026</h1>
+  <p class="deck reveal">AI agents make decisions no human reviewed, using tools no one logged. That is the audit problem: the chain of evidence breaks at the agent. Who must audit AI in 2026 — providers, deployers, and GPAI model makers — and what agents change.</p>
   <div class="byline reveal">by <b>prime domain capital</b> &middot; 2026-10-17</div>
 </header>
 <div class="art-band reveal"><img src="../images/photo2.jpg" alt="Circuit board"></div>
@@ -85,7 +85,10 @@ footer a{color:var(--green);text-decoration:none}
   <p class="body-copy reveal">Certain deployers face more. Article 27 requires Fundamental Rights Impact Assessments from deployers that are public bodies, private entities providing public services, and deployers of specific Annex III systems such as credit and insurance-risk scoring. An FRIA is a genuine audit: it must describe the deployment context, identify who is affected and how, assess the risks to fundamental rights, and document mitigation &mdash; before deployment, not after. Deployer obligations under Article 26 attach to the December 2027 date for high-risk systems, but the transparency and literacy duties do not wait.</p>
   <p class="body-copy reveal">One commercial consequence deserves emphasis. Enterprise buyers increasingly demand their vendors&rsquo; audit evidence as a procurement condition &mdash; training-data documentation, red-team summaries, conformity declarations. A provider that cannot furnish compliant Article 53 documentation does not merely risk the AI Office&rsquo;s attention; it loses deals. Audit readiness is becoming a sales qualification.</p>
   <div class="pull reveal">$ ./2026 &mdash; the question is not whether your AI will be audited. it is whether you conduct the audit &mdash; or become the subject of one.</div>
-  <h2 class="art-h2 reveal">The third-party question: who certifies, and when</h2>
+  <h2 class="art-h2 reveal">The audit problem with AI agents</h2>
+<p class="body-copy reveal">A conventional AI model takes an input and returns an output, and the audit trail is a straight line between the two. An AI agent breaks that line. It plans, retrieves documents, calls software tools, revises its own approach, and sometimes acts — sending a message, changing a record, approving a step — without a human ever seeing the intermediate moves. The audit problem is not that agents are untrustworthy. It is that the evidence of what they did is scattered across tool logs, retrieval caches, and model calls that were never designed to be read together.</p>
+<p class="body-copy reveal">Reconstructing an agent&rsquo;s decision means answering questions a single model call never raises: which tool did it call first, and why that one; what data came back, and whether it was current; what the agent concluded from it, and what it did next. If the trail records only the final answer, the reasoning is gone — and with it, any way to show a regulator, a customer, or a court that the decision was sound. The practical standard is simple: every agent step gets its own entry, linked in order, with inputs, outputs, and the model version behind each one. Anything less is a summary of a decision, not a record of it.</p>
+<h2 class="art-h2 reveal">The third-party question: who certifies, and when</h2>
   <p class="body-copy reveal">The Act does not require most companies to hire an external auditor in 2026. It requires them to act like one. The mandatory third-party layer &mdash; notified-body conformity assessment &mdash; applies to a narrow slice of high-risk systems and arrives with the deferred dates. What is genuinely mandatory now is the internal audit function: classification of every system, gap analysis against the live articles, and evidence collection that would survive an AI Office investigation or a market-surveillance authority&rsquo;s request.</p>
   <p class="body-copy reveal">That is why the voluntary standards matter commercially. ISO/IEC 42001, the AI management-system standard, gives companies an auditable governance structure that maps closely onto the Act&rsquo;s provider duties; certification bodies are building AI-audit practices around it. The Big Four and specialist AI-assurance firms are standing up audit lines now, in anticipation of the December 2027 conformity wave. Early movers are using 2026 for dry runs: mock conformity assessments against the published and draft harmonized standards, starting with EN 18286:2026, the July 2026 standard covering quality management.</p>
   <p class="body-copy reveal">The smartest framing of the year comes from the procurement side.</p>
