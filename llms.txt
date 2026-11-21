@@ -1,0 +1,15 @@
+# AIAuditTrail.com — The Compliance Backbone of the AI Economy
+
+> AIAuditTrail.com covers AI governance, model audit logging, and AI compliance infrastructure.
+> The aiaudittrail.com domain is for sale at $36,888 (Buy Now) via Afternic, secured by Escrow.com.
+
+## Key pages
+- [AIAuditTrail.com](https://aiaudittrail.com/)
+- [Market data](https://aiaudittrail.com/market-data)
+- [EU AI Act Audit Trail Requirements: What Companies Must Document Now](https://aiaudittrail.com/insights/article1)
+- [The Audit Problem With AI Agents: Who Must Audit AI Models in 2026](https://aiaudittrail.com/insights/article2)
+- [AI Audit Trail: How to Build One That Survives an Audit](https://aiaudittrail.com/insights/article3)
+- [Why Chatbots Fail Compliance Audits: The First AI Audit Failures and What They Cost](https://aiaudittrail.com/insights/article4)
+
+## Optional
+- [Sitemap](https://aiaudittrail.com/sitemap.xml)
